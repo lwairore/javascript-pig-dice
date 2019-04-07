@@ -1,11 +1,7 @@
     //business logic
-
-
     var rollDice = function () {
         return Math.floor(6 * Math.random()) + 1;
     }
-
-
 
     function Player(turn) {
         this.roll = 0;
@@ -15,7 +11,6 @@
         this.playerName;
     }
 
-    // checking for 1
     Player.prototype.rollOne = function () {
         if (this.roll === 1) {
             this.temporaryScore = 0;
@@ -25,16 +20,14 @@
             this.temporaryScore += this.roll;
         }
     }
-
-    // hold
+ 
     Player.prototype.hold = function () {
         this.cumulativeScore += this.temporaryScore;
         this.temporaryScore = 0;
         // this.changeturn();
         alert("Wise choice!");
     }
-
-    // changing turn
+   
     Player.prototype.changeturn = function () {
         if (this.roll === 1) {
             this.turn = false;
@@ -42,7 +35,7 @@
             this.turn = true;
         }
     }
-    // check for 100
+    
     Player.prototype.winnerCheck = function () {
         if (this.cumulativeScore >= 100) {
             alert("You are the winner!");
