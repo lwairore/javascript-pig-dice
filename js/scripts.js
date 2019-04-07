@@ -11,4 +11,14 @@ function Player(turn) {
     this.playerName;
 }
 
+Player.prototype.rollOne = function () {
+    if (this.roll === 1) {
+        this.temporaryScore = 0;
+        alert("Oops you rolled a 1! Your turn is over!")
+        // this.changeturn();
+    } else {
+        this.temporaryScore += this.roll;
+    }
+}
+
 
