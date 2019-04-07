@@ -36,3 +36,9 @@ Player.prototype.changeturn = function () {
     }
 }
 
+Player.prototype.winnerCheck = function () {
+    if (this.cumulativeScore >= 100) {
+        alert("You are the winner!");
+    }
+}
+
