@@ -21,4 +21,11 @@ Player.prototype.rollOne = function () {
     }
 }
 
+Player.prototype.hold = function () {
+    this.cumulativeScore += this.temporaryScore;
+    this.temporaryScore = 0;
+    // this.changeturn();
+    alert("Wise choice!");
+}
+
 
