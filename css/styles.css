@@ -1,4 +1,9 @@
-
+#playerRollOne {
+    display: none;
+}
+#playerHold {
+    display: none;
+}
 #right {
     text-align: right
 }
