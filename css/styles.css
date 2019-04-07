@@ -150,3 +150,8 @@
     }
 }
 
+@media screen and (max-width: 416px) {
+    #main-page {
+        display: none
+    }
+}
