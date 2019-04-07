@@ -37,8 +37,7 @@ Give me your feedback at github.com/lwairore/feedback
 6. [Bootstrap core JavaScript](https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js)
 7. [MDB core JavaScript](https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js)
 
-
-
-
+## COPYRIGHT
+Copyright (c) 2019 Karangu Lucas Wairore
 
 
