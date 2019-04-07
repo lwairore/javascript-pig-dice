@@ -28,4 +28,11 @@ Player.prototype.hold = function () {
     alert("Wise choice!");
 }
 
+Player.prototype.changeturn = function () {
+    if (this.roll === 1) {
+        this.turn = false;
+    } else {
+        this.turn = true;
+    }
+}
 
