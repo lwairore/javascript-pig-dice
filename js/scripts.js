@@ -52,4 +52,11 @@ $(document).ready(function () {
         player1.rollOne();
         $("#round-total-1").text(player1.temporaryScore);
     });
+    $("button#player2-roll").click(function (event) {
+        player2.roll = rollDice();
+        $("#die-roll-2").text(player2.roll);
+        player2.rollOne();
+        $("#round-total-2").text(player2.temporaryScore);
+    });
+    
 })
