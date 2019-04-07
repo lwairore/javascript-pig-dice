@@ -1,6 +1,5 @@
 # Play PIG-DICE
-## DESCRIPTION
-## PIG DICE is a game for 2-6 players
+PIG DICE is a game for 2-6 players
 
 ## Rules
 The aim of the game is to get 100 points. 
@@ -21,7 +20,7 @@ Calculating Kate has banked 20 points form the first turn. On her next turn she 
 The first player to attain a total of 100 or more points wins!
 
 ## Previes
-**[Click here](https://devwaweru.github.io/Pig-Dice)** to see the live site.
+**[Click here](https://lwairore.github.io/pig-dice/)** to see the live site.
 
 ## Feedback
 Your opinion matters. 
