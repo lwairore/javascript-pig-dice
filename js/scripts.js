@@ -42,3 +42,14 @@ Player.prototype.winnerCheck = function () {
     }
 }
 
+//User Interface
+$(document).ready(function () {
+    player1 = new Player(true);
+    player2 = new Player(false);
+    $("button#player1-roll").click(function (event) {
+        player1.roll = rollDice();
+        $("#die-roll-1").text(player1.roll);
+        player1.rollOne();
+        $("#round-total-1").text(player1.temporaryScore);
+    });
+})
