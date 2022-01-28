@@ -20,22 +20,16 @@
             this.temporaryScore += this.roll;
         }
     }
-<<<<<<< HEAD
  
-=======
 
->>>>>>> origin/gh-pages
     Player.prototype.hold = function () {
         this.cumulativeScore += this.temporaryScore;
         this.temporaryScore = 0;
         // this.changeturn();
         alert("Wise choice!");
     }
-<<<<<<< HEAD
    
-=======
 
->>>>>>> origin/gh-pages
     Player.prototype.changeturn = function () {
         if (this.roll === 1) {
             this.turn = false;
@@ -43,11 +37,8 @@
             this.turn = true;
         }
     }
-<<<<<<< HEAD
     
-=======
 
->>>>>>> origin/gh-pages
     Player.prototype.winnerCheck = function () {
         if (this.cumulativeScore >= 100) {
             alert("You are the winner!");
