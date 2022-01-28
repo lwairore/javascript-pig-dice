@@ -1,8 +1,5 @@
 # Play PIG-DICE
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/gh-pages
 PIG DICE is a game for 2-6 players
 
 ## Rules
