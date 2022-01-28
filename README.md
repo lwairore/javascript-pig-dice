@@ -20,7 +20,7 @@ Calculating Kate has banked 20 points form the first turn. On her next turn she 
 
 The first player to attain a total of 100 or more points wins!
 
-## Previes
+## Previews
 **[Click here](https://lwairore.github.io/pig-dice/)** to see the live site.
 
 ## Feedback
